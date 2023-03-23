@@ -18,11 +18,11 @@ switch (cpuChoice) {
         break;
 }
 if (cpuChoice == human) {
-        console.log("Egalité le S !");
+        console.log("Egalité !");
     } else if ((cpuChoice == 1 && human == 2) || (cpuChoice == 2 && human == 0) || (cpuChoice == 0 && human == 1)) {
-        console.log("tia gagné le S !");
+        console.log("tu a gagné !");
     } else {
-        console.log("Tia perdu Tonton !");
+        console.log("Tu a perdu !");
     }
 function random(min: number, max: number) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
